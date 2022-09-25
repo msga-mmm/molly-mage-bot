@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@test/*": [
+        "../test/*"
+      ]
+    },
+    "lib": [
+      "ESNext"
+    ],
+    "module": "esnext",
+    "target": "esnext",
+    "moduleResolution": "node",
+    "allowJs": false,
+    "types": [
+      "bun-types"
+    ],
+    "strict": true
+  }
+}
